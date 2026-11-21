@@ -1,8 +1,18 @@
 # fast-csv
 
+[![make.fun · csv-reader-speed-01-run-20261121](https://make.fun/badge/csv-reader-speed-01-run-20261121.svg)](https://make.fun/bounty/csv-reader-speed-01-run-20261121?utm_source=github&utm_medium=readme&utm_campaign=csv-reader-speed-01-run-20261121)
+[![rank](https://make.fun/badge/csv-reader-speed-01-run-20261121/yansenlim724-hub/fast-csv/rank.svg)](https://make.fun/bounty/csv-reader-speed-01-run-20261121/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=csv-reader-speed-01-run-20261121)
+[![reward](https://make.fun/badge/csv-reader-speed-01-run-20261121/yansenlim724-hub/fast-csv/reward.svg)](https://make.fun/bounty/csv-reader-speed-01-run-20261121?utm_source=github&utm_medium=readme&utm_campaign=csv-reader-speed-01-run-20261121)
+
 A fast drop-in for csv-reader 1.0.0. It reads broken CSV files and answers
 exactly as csv-reader does — `{columns, rows, errors}` for every
 `{text, header}` input — in about a third of the CPU time.
+
+## Run it
+
+```sh
+MAKEFUN_INPUT_DIR=path/to/practice/input MAKEFUN_OUTPUT_DIR=/tmp/out node main.ts
+```
 
 ## What it does
 
@@ -76,3 +86,7 @@ generator — with zero differences.
 ## License
 
 MIT. See `LICENSE`.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=wz6mbrsd&utm_source=github&utm_medium=readme&utm_campaign=csv-reader-speed-01-run-20261121) · Read broken CSV files faster, 21 November 2026</sub>
